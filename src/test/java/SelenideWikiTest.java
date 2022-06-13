@@ -21,7 +21,7 @@ public class SelenideWikiTest {
         $(".wiki-more-pages-link button").click();
         $(byText("Soft assertions")).click();
         $ ("#user-content-3-using-junit5-extend-test-class").parent().shouldHave(text("Unit5 extend test"));
-        sleep(5000);
+
 
     }
 
